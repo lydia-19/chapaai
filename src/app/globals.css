@@ -10,17 +10,42 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-green-1: #7cc243;
+  --color-green-2: #2eb8b4;
+  --color-green-3: #7abd64;
+  --color-green-4: #47b9a2;
+  --color-green-5: #5bb0a0;
+
+  --color-black-1: #373d46;
+  --color-black-2: #0d1b34;
+
+  --color-gray-1: #7b8087;
+  --color-gray-2: #858585;
+  --color-gray-3: #f2f7ff;
+  --color-gray-4: #adb2bd;
+  --color-gray-5: #f2f6ff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .text-gradient {
+    @apply from-green-3 to-green-4 bg-gradient-to-r bg-clip-text text-transparent;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-pt-sans), sans-serif;
+}
+
+@layer base {
+  p {
+    color: var(--color-gray-1);
+  }
+
+  button,
+  a {
+    cursor: pointer;
+  }
 }
