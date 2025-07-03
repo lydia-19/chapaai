@@ -25,6 +25,9 @@
   --color-gray-3: #f2f7ff;
   --color-gray-4: #adb2bd;
   --color-gray-5: #f2f6ff;
+
+  --breakpoint-xl-2: 90rem; /* 1440px */
+  --breakpoint-3xl: 120rem; /* 1920px */
 }
 
 @layer components {

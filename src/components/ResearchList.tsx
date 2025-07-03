@@ -32,7 +32,7 @@ const ResearchList = ({
             future.
           </h2>
         )}
-        <div className="grid grid-cols-1 gap-x-5 gap-y-15 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 xl:gap-y-20">
+        <div className="grid grid-cols-1 gap-x-5 gap-y-15 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 xl:gap-y-20">
           {researches
             .filter((r) => r.id !== research?.id)
             .slice(0, showAll ? undefined : maxItems)
