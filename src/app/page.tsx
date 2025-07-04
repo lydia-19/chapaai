@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Intro />
-      <ResearchList />
+      <ResearchList showAll={false} />
       <SeeMore />
     </div>
   );

@@ -1,12 +1,18 @@
 import Image from "next/image";
 
+import NeuralNetwork from "@animations/NeuralNetwork";
+import FloatingParticles from "@animations/FloatingParticles";
+
 const Intro = () => {
   return (
-    <div className="via-gray-5 to-gray-5/2 bg-gradient-to-b from-white py-10 lg:py-0 xl:h-[calc(100vh-88px)] 2xl:h-auto 2xl:py-36">
-      <div className="h-full px-4 md:px-10 lg:px-24">
+    <div className="via-gray-5 to-gray-5/2 neural-bg relative overflow-hidden bg-gradient-to-b from-white py-10 lg:py-0 xl:h-[calc(100vh-88px)] 2xl:h-auto 2xl:py-36">
+      <NeuralNetwork />
+      <FloatingParticles />
+
+      <div className="relative z-10 h-full px-4 md:px-10 lg:px-24">
         <div className="mx-auto h-full max-w-screen-2xl">
           <div className="flex h-full flex-col justify-center max-xl:gap-6">
-            <div className="relative flex items-center justify-center md:py-10">
+            <div className="relative flex items-center justify-center md:py-10 xl:py-4">
               <div className="flex-1/2 md:flex-4/5">
                 <div className="xl-2:w-lg xl-2:left-[42%] absolute top-0 left-[46%] aspect-square w-32 rounded-full backdrop-blur-xs md:w-72 lg:left-[42%] xl:left-[46%] xl:w-md 2xl:w-xl"></div>
                 <h1 className="text-gradient 3xl:text-[150px] text-4xl !leading-[115%] font-bold tracking-tight whitespace-nowrap sm:text-6xl md:text-7xl lg:text-[90px] xl:text-[117px] 2xl:text-[126px]">

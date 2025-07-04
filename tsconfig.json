@@ -21,6 +21,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
+      "@animations/*": ["./src/components/animations/*"],
       "@data/*": ["./src/data/*"],
       "@icons/*": ["./src/icons/*"]
     }
