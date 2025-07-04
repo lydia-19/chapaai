@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chapa AI Research
 
-## Getting Started
+A modern research showcase website for [Chapa](https://chapa.co) AI, featuring their artificial intelligence research projects and reports. The site presents cutting-edge research in fintech, machine learning, and data analysis conducted by Chapa's AI team.
 
-First, run the development server:
+## 🔬 About
+
+This website serves as a digital library for Chapa's AI research initiatives, showcasing studies that span in finance, data analysis, and AI applications.
+
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js 15.3.3](https://nextjs.org) with App Router
+- **Language**: TypeScript
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com)
+- **UI Components**: Custom React components with animations
+- **Font**: PT Sans from Google Fonts
+- **Deployment**: Optimized for Vercel
+
+## 🛠️ Getting Started
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd chapa-ai
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +48,38 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Research Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website currently features:
 
-## Learn More
+1. **Bilicho** - AI assistant for API documentation and developer support
+2. **NPL Report** - Machine learning models for predicting non-performing loans in Ethiopia
+3. **MyGerd** - Data analysis of the Grand Ethiopian Renaissance Dam donation platform
+4. **Eyezon Report** - Analysis of humanitarian donation platform for internally displaced persons
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Adding New Research
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Add research data to `src/data/[research-name].json`
+2. Add research images to `public/images/research/`
+3. Update the research list in `src/components/ResearchList.tsx`
 
-## Deploy on Vercel
+### Building for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+This project represents Chapa's research efforts. For inquiries about collaboration or research partnerships, please visit [chapa.co/contact](https://chapa.co/contact).
+
+## 📄 License
+
+Copyright © Chapa. All rights reserved.
+
+**Chapa AI Research** - _Unlocking the Mysteries of Tomorrow's AI_
