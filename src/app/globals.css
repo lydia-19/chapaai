@@ -32,7 +32,7 @@
 
 @layer components {
   .text-gradient {
-    @apply from-green-3 to-green-4 bg-gradient-to-r bg-clip-text text-transparent;
+    @apply from-green-3 to-green-4 bg-gradient-to-b bg-clip-text text-transparent;
   }
 }
 
