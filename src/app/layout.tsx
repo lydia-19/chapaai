@@ -11,7 +11,7 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Chapa AI",
+  title: "Chapa AI Research - CHAIR",
   description: "Unlocking the Mysteries of Tomorrow's AI",
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Chapa AI, unlocking the mysteries of tomorrow's AI"
+          content="Chapa AI Research - CHAIR, unlocking the mysteries of tomorrow's AI"
         />
       </head>
       <body className={`${ptSans.variable} antialiased`}>
