@@ -51,7 +51,7 @@ const ResearchDetail = ({ research }: { research: iResearch }) => {
           <span className="bg-green-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full p-2">
             <PDFIcon />
           </span>
-          <span className="mr-2"> Read More</span>
+          <span className="mr-2"> Download PDF</span>
         </a>
       </div>
       <div className="bg-gray-5 py-20">

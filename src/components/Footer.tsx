@@ -10,7 +10,7 @@ const Footer = () => {
               Copyright © chapa {new Date().getFullYear()}
             </p>
             <ul className="flex gap-8">
-              <li className="text-gray-4 text-xs lg:text-xl">
+              <li className="text-gray-4 hover:text-gray-3 text-xs lg:text-xl">
                 <Link
                   href="https://chapa.co/privacy"
                   target="_blank"
@@ -19,7 +19,7 @@ const Footer = () => {
                   Privacy
                 </Link>
               </li>
-              <li className="text-gray-4 text-xs lg:text-xl">
+              <li className="text-gray-4 hover:text-gray-3 text-xs lg:text-xl">
                 <Link
                   href="https://chapa.co/terms"
                   target="_blank"
