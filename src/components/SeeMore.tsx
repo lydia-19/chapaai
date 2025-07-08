@@ -9,7 +9,7 @@ const SeeMore = () => {
           Dive Deeper into
           <br /> Our <span className="text-green-1">Research</span>
         </p>
-        <Button className="lg:text-md text-xs font-bold lg:px-10 lg:text-sm">
+        <Button className="lg:text-md text-sm font-bold lg:px-10 lg:text-sm">
           <Link href="/all-researches" className="">
             See More Researches
           </Link>

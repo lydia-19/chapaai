@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="hidden text-xs font-bold sm:block">
+          <Button className="hidden text-sm font-bold sm:block">
             <Link href="https://chapa.co" target="_blank">
               Visit Chapa Website
             </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <Button className="mt-2 w-full text-xs font-bold">
+              <Button className="mt-2 w-full text-sm font-bold">
                 <Link
                   href="https://chapa.co"
                   target="_blank"
