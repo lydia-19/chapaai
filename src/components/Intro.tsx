@@ -11,10 +11,9 @@ const Intro = () => {
 
       <div className="relative z-10 h-full px-4 md:px-10 lg:px-24">
         <div className="mx-auto h-full max-w-screen-2xl">
-          <div className="flex h-full flex-col justify-center max-xl:gap-6">
+          <div className="flex h-full flex-col justify-center max-xl:gap-6 xl:gap-2">
             <div className="relative flex items-center justify-center md:py-10 xl:py-4">
               <div className="flex-1/2 md:flex-4/5">
-                <div className="xl-2:left-[52%] absolute top-0 left-[53%] aspect-square w-32 rounded-full backdrop-blur-[2px] md:left-[57%] md:w-72 md:backdrop-blur-xs lg:left-[53%] lg:w-96 xl:left-[58%] 2xl:w-xl"></div>
                 <h1 className="text-gradient 3xl:text-[150px] text-4xl !leading-[115%] font-bold tracking-tight whitespace-nowrap sm:text-6xl md:text-7xl lg:text-[90px] xl:text-[117px] 2xl:text-[126px]">
                   Explore Chapa&apos;s <br /> AI Research <br /> Library
                 </h1>

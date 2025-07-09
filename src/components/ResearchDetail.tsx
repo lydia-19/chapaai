@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ContactUs from "./ContactUs";
 import ResearchList from "./ResearchList";
 import Breadcrumb from "./common/Breadcrumb";
 import { iResearch } from "./common/Research";
@@ -63,7 +62,6 @@ const ResearchDetail = ({ research }: { research: iResearch }) => {
           <ResearchList research={research} showTitle={false} showAll={false} />
         </div>
       </div>
-      <ContactUs />
     </div>
   );
 };
