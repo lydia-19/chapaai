@@ -10,17 +10,19 @@ const ResearchDetail = ({ research }: { research: iResearch }) => {
   return (
     <div>
       <div className="via-gray-5 to-gray-5/2 bg-gradient-to-b from-white py-10 lg:py-20">
-        <div className="container mx-auto px-5 md:px-0">
-          <Breadcrumb
-            items={[
-              { label: "Home", href: "/" },
-              { label: "All Research", href: "/all-researches" },
-              { label: research.title, href: `/research/${research.id}` },
-            ]}
-          />
-          <h1 className="text-gradient mx-auto max-w-2xl text-center text-2xl leading-none font-bold lg:text-5xl">
-            {research.title}
-          </h1>
+        <div className="px-4 md:px-10 lg:px-24">
+          <div className="mx-auto max-w-screen-2xl">
+            <Breadcrumb
+              items={[
+                { label: "Home", href: "/" },
+                { label: "All Research", href: "/all-researches" },
+                { label: research.title, href: `/research/${research.id}` },
+              ]}
+            />
+            <h1 className="text-gradient text-center text-2xl leading-normal font-bold lg:text-5xl">
+              {research.title}
+            </h1>
+          </div>
         </div>
       </div>
       <div className="mx-auto max-w-2xl px-5 py-10 lg:max-w-3xl lg:px-0">
