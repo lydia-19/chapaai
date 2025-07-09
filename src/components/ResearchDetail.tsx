@@ -4,12 +4,13 @@ import Breadcrumb from "./common/Breadcrumb";
 import { iResearch } from "./common/Research";
 import CalanderIcon from "@icons/Calander";
 import PDFIcon from "@/icons/PDF";
+import Link from "next/link";
 
 const ResearchDetail = ({ research }: { research: iResearch }) => {
   return (
     <div>
       <div className="via-gray-5 to-gray-5/2 bg-gradient-to-b from-white py-10 lg:py-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-5 md:px-0">
           <Breadcrumb
             items={[
               { label: "Home", href: "/" },
@@ -17,16 +18,40 @@ const ResearchDetail = ({ research }: { research: iResearch }) => {
               { label: research.title, href: `/research/${research.id}` },
             ]}
           />
-          <h1 className="text-gradient text-center text-2xl leading-normal font-bold lg:text-5xl">
+          <h1 className="text-gradient mx-auto max-w-2xl text-center text-2xl leading-none font-bold lg:text-5xl">
             {research.title}
           </h1>
         </div>
       </div>
       <div className="mx-auto max-w-2xl px-5 py-10 lg:max-w-3xl lg:px-0">
-        <p className="text-black-2 mb-10 flex items-center gap-2 text-xs font-bold lg:text-2xl">
+        <p className="text-black-2 mb-5 flex items-center gap-2 text-xs font-bold lg:text-2xl">
           <CalanderIcon />
           {research.date}
         </p>
+
+        <div className="mb-5 flex flex-wrap items-center gap-2">
+          <p className="flex-shrink-0 text-xs font-bold text-black italic lg:text-base">
+            Published By:
+          </p>
+          {research.authors.map((author, index) => (
+            <p
+              className={`text-green-1 text-xs ${
+                author.email ? "underline" : ""
+              } lg:text-base`}
+              key={index}
+            >
+              {author.email ? (
+                <Link href={`mailto:${author.email}`}>{author.name}</Link>
+              ) : (
+                author.name
+              )}
+              <span className="ml-1">
+                {index !== research.authors.length - 1 && ","}
+              </span>
+            </p>
+          ))}
+        </div>
+
         <div className="relative h-[476px] w-full">
           <Image
             src={research.imgSrc}

@@ -1,7 +1,14 @@
 {
   "id": "eyezon-report",
-  "title": "Eyezon Report",
+  "title": "Eyezon Ethiopia Report",
   "date": "Oct 24, 2021",
+  "authors": [
+    {
+      "name": "Nuredin Ali",
+      "email": "nuredi2000@gmail.com"
+    },
+    { "name": "Israel Goytom", "email": "israel@chapa.com" }
+  ],
   "shortDescription": "Analysis of Eyezon Ethiopia's first quarter: donation volume, donor behavior, transaction trends, and social media sentiment from Oct 2021-Jan 2022.",
   "longDescription": "<p>The Eyezon Ethiopia report, covering October 24, 2021 to January 27, 2022, provides a comprehensive view of the platform's initial impact. Eyezon, launched by Chapa and partners—including the Ethiopian Diaspora Agency, CBE, and NDRMC—was designed to centralize international donations for internally displaced persons (IDPs) during the northern conflict. The report analyzes donation amounts, donor behavior, transaction methods, and public sentiment.</p><p>In its first 95 days, Eyezon raised over $6.05 million USD across 25,246 transactions, with 21,137 unique donors, averaging 265 donations per day. The largest donations came from diaspora-heavy countries, with the U.S. contributing about 85.8% of total funds. Notably, the average donation clustered between $50 - $100, while a smaller share of large donations ($500 - $1,000) accounted for about 42% of total funds. The repeat giving rate stood at 10.7%, indicating return donors, and donor growth peaked impressively in November with over 13,000 new donors.</p><p>Visa and Mastercard were the only accepted payment methods, with Visa dominating at 72% of transactions. Average daily donation totals hovered around $64,486 USD, with peak days in late November reaching up to $447,570. This shows sustained engagement and significant spikes aligned with awareness campaigns or media coverage.</p><p>Social media sentiment was analyzed using sentiment and topic modeling on tweets about Eyezon Ethiopia. Of the reactions, 56.3% were neutral, 27.2% positive, and 16.5% negative. Word clouds highlighted community unity, using hashtags like #EthiopiaPrevail and mentions of Afar and Amhara regions. Most commentary was in English (97.8%), with Amharic at only 2.2%, reflecting the global Ethiopian diaspora's engagement.</p>",
   "imgSrc": "/images/research/eyezon-ethiopia.webp",

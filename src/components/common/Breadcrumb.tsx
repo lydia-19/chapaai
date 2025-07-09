@@ -10,7 +10,7 @@ const Breadcrumb = ({
   }[];
 }) => {
   return (
-    <div className="mb-10 flex justify-center gap-4">
+    <div className="mb-10 flex flex-wrap justify-center gap-4">
       {items.map((item) => (
         <Link
           key={item.href}

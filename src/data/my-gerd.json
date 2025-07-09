@@ -1,7 +1,18 @@
 {
   "id": "my-gerd",
-  "title": "MyGerd",
+  "title": "Understanding MYGERD and Donors Using Data Analysis",
   "date": "Oct 1, 2021",
+  "authors": [
+    {
+      "name": "Nuredin Ali",
+      "email": "nuredi2000@gmail.com"
+    },
+    {
+      "name": "Elias Makonnen",
+      "email": ""
+    },
+   { "name": "Israel Goytom", "email": "israel@chapa.com" }
+  ],
   "shortDescription": "Data-driven analysis of MyGerd platform: donor behavior, donation trends, and social sentiment supporting the GERD dam.",
   "longDescription": "<p>MyGerd, the official donation platform for the Grand Ethiopian Renaissance Dam (GERD), launched on July 22, 2021, to channel global support through Ethiopians at home and abroad. The report examines donor demographics, transaction patterns, campaign reach, and public sentiment on social media between launch and October 16, 2021. By combining transaction data with sentiment analysis, the study answers key questions about engagement levels and platform effectiveness.</p><p>In its first 87 days, MyGerd received daily donations averaging around $1,500 USD. The platform reached donors in 46 countries, emphasizing its global footprint. Approximately 69% of contributions came from the U.S., reflecting strong diaspora participation. The most common contribution ranged between $25-$100, while some individuals gave larger amounts, showcasing both grassroots and major donor support. Transactions mainly utilized Visa and Mastercard, given their global prevalence. Daily donor counts fluctuated with campaign activity and publicity, highlighting the influence of outreach efforts. The dataset also categorized campaigns by continents and type, revealing patterns in campaign origins and international engagement.</p><p>Twitter analysis showed that 61% of comments about MyGerd were neutral, 25% positive, and 13% negative . Most tweets were in English (99%), suggesting global diaspora discourse. When discussing GERD more broadly, sentiment remained similarly neutral, with frequent words including “Ethiopia,” “unity,” and “donate”. This suggests the platform generated mostly balanced online feedback, with occasional emotional peaks around solidarity themes.</p><p>Overall, the MyGerd report demonstrates meaningful international engagement and a predominantly supportive yet measured public sentiment. By revealing donor behaviors and sentiment dynamics, the study offers valuable insights for optimizing campaign strategies, payment channels, and communication to sustain momentum for large-scale national initiatives.</p>",
   "imgSrc": "/images/research/mygerd.webp",
