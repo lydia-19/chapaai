@@ -19,7 +19,7 @@ const Research = ({ id, title, shortDescription, imgSrc }: iResearch) => {
       className="group justify-self-center transition-all duration-300 ease-in-out"
     >
       <div className="flex flex-col items-center gap-4 lg:items-start">
-        <h3 className="text-black-1 w-full max-w-96 text-left font-bold italic sm:min-h-[75px] md:min-h-14 lg:min-h-16 lg:text-xl xl:min-h-[85px] 2xl:min-h-14">
+        <h3 className="text-black-1 xl-2:min-h-16 w-full max-w-96 text-left font-bold italic sm:min-h-[75px] md:min-h-14 lg:min-h-16 lg:text-xl xl:min-h-[85px] 2xl:min-h-14">
           {title}
         </h3>
         <Image
